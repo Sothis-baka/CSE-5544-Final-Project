@@ -1,10 +1,21 @@
+import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+import Home from './Pages/Home';
+import Visual1 from "./Pages/Visual1";
+import Visual2 from "./Pages/Visual2";
+import Visual3 from "./Pages/Visual3";
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      Hello
-    </div>
+      <Router>
+          <Route exact path='/' component={ Home }/>
+          <Route exact path='/visual1' component={ Visual1 }/>
+          <Route exact path='/visual2' component={ Visual2 }/>
+          <Route exact path='/visual3' component={ Visual3 }/>
+      </Router>
   );
 }
 
