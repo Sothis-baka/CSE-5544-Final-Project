@@ -1,0 +1,39 @@
+#HomeWrapper{
+    text-align: center;
+
+    height: 100vh;
+
+    background: linear-gradient(-45deg, #55efc4, #81ecec, #74b9ff, #a29bfe, #ffeaa7, #fab1a0, #ff7675, #fd79a8);
+    background-size: 400% 400%;
+
+    cursor: default;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient{
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+#homeTitle{
+    font-family: 'Pacifico', cursive;
+
+    padding: 1em;
+}
+
+#HomeWrapper .BtnGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1em;
+}
+

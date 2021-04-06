@@ -1,0 +1,120 @@
+button{
+    position: relative;
+    
+    display: block;
+    
+    height: 3em;
+    width: 8em;
+    
+    margin: 1em auto;
+    
+    font-size: 1.4em;
+    font-family: Source Sans Pro, sans-serif;
+    color: aliceblue;
+    
+    border: none;
+    border-radius: 6px;
+    outline:none;
+    
+    box-shadow: 2px 2px 2px 0px #aaa69d,
+        inset 2px 2px 2px 0px rgba(255,255,255,.5);
+    
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn-1{
+    background-image: linear-gradient(to right, #fab1a0, #ff7675);
+}
+
+.btn-1:hover{
+    color: #fab1a0;
+    background-image: none;
+    background-color: transparent;
+}
+
+.btn-1 span::before, .btn-1 span::after{
+    content: "";
+    position: absolute;
+    
+    background-color: #fab1a0;
+    height: 2px;
+    width: 0;
+}
+
+.btn-1 span::before{
+    left: 0;
+    top: 0;
+}
+
+@keyframes bord-2{
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+.btn-1 span::after{
+    right: 0;
+    bottom: 0;
+}
+
+.btn-1:hover span::before, .btn-1:hover span::after{
+    width: 100%;
+    
+    animation-name: bord-2;
+    animation-duration: 2.4s;
+}
+
+.btn-2{
+    background-image: linear-gradient(to bottom right, #6c5ce7, #a29bfe);
+}
+
+.btn-2:hover{
+    box-shadow:2px 2px 2px 0px rgba(255,255,255,.2);
+}
+
+.btn-3{
+    background-image: linear-gradient(to top right, #81ecec, #00cec9);
+}
+
+.btn-3:hover{
+    color: #81ecec;
+    background-image: none;
+    background-color: transparent;
+    border: #81ecec solid 2px;
+}
+
+.btn-4{
+    background-color: #55efc4;
+    z-index: 1;
+}
+
+.btn-4::after{
+    position: absolute;
+    content: "";
+    
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    
+    border: none;
+    border-radius: 6px;
+    
+    background-color: #00b894;
+    z-index: -1;
+}
+
+@keyframes btn4{
+    from {width: 0;}
+    to {width: 100%;}
+}
+
+.btn-4:hover::after{
+    width: 100%;
+    
+    animation-name: btn4;
+    animation-duration: 1s;
+}
