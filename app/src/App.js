@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import Home from './Pages/Home';
-import Visual1 from "./Pages/Visual1";
-import Visual2 from "./Pages/Visual2";
-import Visual3 from "./Pages/Visual3";
+import Home from './pages/Home';
+import Visual1 from "./pages/Visual1";
+import Visual2 from "./pages/Visual2";
+import Visual3 from "./pages/Visual3";
 
 import './App.css';
 

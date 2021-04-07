@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
-import '../Styles/Home.css';
-import '../Styles/button.css';
+import '../styles/Home.css';
+import '../styles/button.css';
 
 const Home = () => {
     return(

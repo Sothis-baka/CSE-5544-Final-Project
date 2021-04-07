@@ -1,18 +1,16 @@
 import React from "react";
-import loadedData from "../utils/loadedData";
 
 class Visual1 extends React.Component{
     constructor(props) {
         super(props);
 
         this.state = {
-            data: []
+            data: null
         };
     }
 
     async componentDidMount() {
         this.setState({
-            data: await loadedData()
         });
     }
 

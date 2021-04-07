@@ -37,3 +37,18 @@
     margin: 1em;
 }
 
+#legends{
+    position: fixed;
+
+    right: 2em;
+    bottom: 2em;
+}
+
+.legend{
+    display: inline-block;
+
+    height: 1em;
+    width: 2em;
+
+    margin: 1em 1em -0.2em;
+}
