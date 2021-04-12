@@ -1,0 +1,62 @@
+#visual1Form{
+    font-size: 0.8em;
+
+    background-color: rgba(75, 75, 75, 0.2);
+
+    padding-bottom: 1em;
+}
+
+#visual1Form .row{
+    margin-top: 1em;
+}
+
+
+
+#visual1Form input[type='radio'], #visual1Form input[type='checkbox']{
+    margin-bottom: -1em;
+}
+
+#visual1Form input:hover{
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.radioGroup label, .checkboxGroup label{
+    margin-top: -0.4em;
+}
+
+#visual1Form .ageSelector, #visual1Form #visual1Legends, #visual1Form #visual1StrokeLegends{
+    margin-top: -0.4em;
+}
+
+#visual1Form .circleLegend{
+    height: 1em;
+    width: 1em;
+
+    border-radius: 50%;
+
+    margin-top: 0.2em;
+}
+
+#visual1Form #diseaseLegend1{
+    border: 1px solid #ff4d4d;
+}
+
+#visual1Form #diseaseLegend2{
+    border: 1px solid #18dcff;
+}
+
+#visual1Form #diseaseLegend3{
+    border: 1px solid #c56cf0;
+}
+
+#visual1Form #diseaseLegend4{
+    border: 1px solid aliceblue;
+}
+
+#visual1Form #strokeLegend1{
+    background-color: #3d3d3d;
+}
+
+#visual1Form #strokeLegend2{
+    background-color: #CAD3C8;
+}

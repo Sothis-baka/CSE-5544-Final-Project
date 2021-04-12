@@ -6,7 +6,8 @@ import Visual1 from "./pages/Visual1";
 import Visual2 from "./pages/Visual2";
 import Visual3 from "./pages/Visual3";
 
-import './App.css';
+import './styles/App.css';
+import './styles/bootstrap-grid.min.css'
 
 function App() {
   return (

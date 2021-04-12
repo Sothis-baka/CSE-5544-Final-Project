@@ -1,5 +1,6 @@
 import React from 'react';
 import Plotly from 'plotly.js-dist';
+
 import dataSource from '../sources/healthcare-dataset-stroke-data.csv';
 
 const drawChart = () => {
@@ -63,6 +64,7 @@ const drawChart = () => {
         }];
 
         const layout = {
+            title:"Parallel Coordinates of the distribution of several factors on stroke",
             width: 1200,
             height:600
         };
@@ -81,10 +83,6 @@ const Legend = ({ label, color }) => {
 };
 
 class ParallelCoordinates extends React.Component{
-    constructor(props) {
-        super(props);
-    }
-
     componentDidMount() {
         drawChart();
     }
@@ -93,8 +91,8 @@ class ParallelCoordinates extends React.Component{
         return (
             <div id="myDiv">
                 <div id='legends'>
-                    <Legend label={'With Stoke'} color='#74b9ff'/>
-                    <Legend label={'Without Stoke'} color='#ff7675'/>
+                    <Legend label={'Without Stroke'} color='#74b9ff'/>
+                    <Legend label={'With Stroke'} color='#ff7675'/>
                 </div>
             </div>
         );
