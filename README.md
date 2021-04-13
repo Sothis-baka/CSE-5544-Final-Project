@@ -10,7 +10,11 @@ Data can be found [here](https://www.kaggle.com/fedesoriano/stroke-prediction-da
 
 ### Author
 
-Adithya Reji, Cyrus Li, Taoqi Yang
+Taoqi Yang makes the 3d visualization with python, the source code is in /first visualization.ipynb
+
+Cyrus Li makes the pairwise scatter plot and parallel coordinates with javascript and deployed all graph on Heroku, source code in /app
+
+Adithya Reji makes the presentation
 
 ### Built With
 

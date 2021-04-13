@@ -210,7 +210,7 @@ const PlotRow = ({ data, x_selected, y }) => {
     if(x_selected.size === 2){
         if(compareSet(x_selected, new Set(['Gender', 'Marriage']))){
             return (
-                <div>
+                <div className='row'>
                     <SctPlot data={ data.filter(d => d.gender === 'Male' && d.ever_married === 'Yes') } name={ y+'Married male' }/>
                     <SctPlot data={ data.filter(d => d.gender === 'Male' && d.ever_married === 'No') } name={ y+'Not married male' }/>
                     <SctPlot data={ data.filter(d => d.gender === 'Female' && d.ever_married === 'Yes') } name={ y+'Married female' }/>
