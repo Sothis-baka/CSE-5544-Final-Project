@@ -47,6 +47,8 @@ npm start
 ```
 
 Then your browser will pop up a new window at localhost:3000
+### Deployed
+[heroku](https://cse-5544-final-project.herokuapp.com)
 
 ### Contact
 
